@@ -1,0 +1,73 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #b3b4b3;
+    color: hsl(0, 0%, 3%);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos específicos para secciones */
+#inicio {
+    background-color: #0b9eb8;
+    padding: 20px;
+}
+
+#tipos {
+    background-color: #80fce7;
+    padding: 20px;
+}
+
+#proyectos {
+    background-color: #f1badf;
+    padding: 20px;
+}
+
+#contacto {
+    background-color: #e687c9;
+    padding: 20px;
+}
