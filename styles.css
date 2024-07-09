@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #7d76df;
     color: #fff;
     padding: 1em;
     text-align: center;
@@ -43,7 +43,7 @@ section {
 
 footer {
     background-color: #b3b4b3;
-    color: hsl(0, 0%, 3%);
+    color: hsl(237, 32%, 57%);
     text-align: center;
     padding: 10px;
     position: fixed;
@@ -53,12 +53,12 @@ footer {
 
 /* Estilos específicos para secciones */
 #inicio {
-    background-color: #0b9eb8;
+    background-color: #ce4be9;
     padding: 20px;
 }
 
 #tipos {
-    background-color: #80fce7;
+    background-color: #da7ccd;
     padding: 20px;
 }
 
@@ -68,6 +68,125 @@ footer {
 }
 
 #contacto {
-    background-color: #e687c9;
+    background-color: #87e2ce;
     padding: 20px;
 }
+
+
+
+
+header {
+    background-color: #7968c4;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(97, 96, 96, 0.2); /* Sombra ligera */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    transition: background-color 0.3s, border-radius 0.3s;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    background-color: #555555; /* Color de fondo al pasar el mouse */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(87, 86, 86, 0.1); /* Sombra ligera */
+    background-color: #fff; /* Fondo blanco */
+}
+
+h2 {
+    color: #7216a7;
+    border-bottom: 2px solid #ccc; /* Línea divisoria debajo de los títulos */
+    padding-bottom: 5px;
+}
+
+p {
+    color: #0a0a0a;
+}
+
+footer {
+    background-color: rgb(238, 209, 79);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos específicos para secciones */
+#inicio, #tipos, #proyectos, #contacto {
+    background-color: #6fc6db;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    background-color: rgb(238, 209, 79);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div {
+    margin-bottom: 10px;
+}
+
+.social-link {
+    display: inline-block;
+    margin: 0 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-link img {
+    width: 30px; /* Ajusta el tamaño según tus necesidades */
+    height: 30px; /* Ajusta el tamaño según tus necesidades */
+}
+
+.social-link:hover {
+    transform: scale(1.2); /* Efecto de escala al pasar el mouse */
+}
+
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif; /* Mantienes Arial como fallback y añades una fuente cursiva */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ecea6b; /* Color de fondo general */
+}
+
+/* Para agregar una fuente cursiva, puedes usar 'cursive', 'italic', o especificar una fuente específica *
+
+
+
+
